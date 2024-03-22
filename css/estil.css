@@ -1,0 +1,136 @@
+
+/* Establece la fuente predeterminada para el cuerpo del documento */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+ }
+
+/* Estilos para el contenedor de búsqueda */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Estilos para el campo de entrada de texto */
+input[type="text"] {
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: auto; /* Alinear a la derecha */
+    margin-right: 10px;
+}
+
+/* Estilos para el encabezado */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+/* Estilos para los enlaces de idioma "Val/Cas" */
+.val-link, .cas-link {
+    color: rgb(207, 18, 18);
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/* Estilos para el logo de la Generalitat */
+.logo-generalitat {
+    width: 170px;
+    height: auto;
+}
+
+/* Estilos para el logo de Aules */
+.logo-aules {
+    width: 170px;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+/* Estilos para la imagen conselleria */
+.conselleria {
+    color: rgb(207, 18, 18);
+}
+
+/* Estilos para la línea roja */
+.red-line {
+    border-bottom: 1px solid rgb(207, 18, 18); /* Define el color y el grosor de la línea */
+    margin: 0; /* Elimina el margen por defecto del <hr> */
+}
+
+/* Estilos para el contenedor */
+.container {
+    display: flex;
+    justify-content: flex-start; /* Alinear a la izquierda */
+    align-items: center;
+    padding: 10px;
+}
+
+/* Estilos para el texto */
+.text {
+    color: rgb(207, 18, 18);
+    margin-right: 20px;
+}
+
+/* Estilos para los enlaces */
+.link {
+    text-decoration: none;
+    color: rgb(207, 18, 18);
+    position: relative;
+}
+
+/* Estilos para los enlaces */
+a {
+    padding: 14px 16px;
+    display: inline;
+}
+
+/* Estilos al pasar el cursor sobre los enlaces dentro de listas desordenadas */
+ul a:hover {
+    background-color: #dddada;
+}
+
+/* Estilos para el elemento con la clase 'cabecera' que es la imagen de entorn virtual*/
+.cabecera {    
+    text-align: center;
+  }
+
+/* Estilos para las columnas 1 y 2 */
+.cos1 {
+    margin: 0 10%;
+}
+
+.cos2 {
+    margin: 0 8%;
+}
+
+/* Estilos para las imágenes dentro de elementos 'a' */
+a img {
+    padding: 5%;
+    width: 90%;
+}
+
+/* Estilos para las columnas 1, 2 y 3 de las imagenes de aules,fp,infantil...*/
+.col1, .col2, .col3 {
+    text-align: center;
+    float: left;
+    width: 33.3%;
+ } 
+
+/* Estilos para los elementos con la clase 'centrat' "Instruccions d'accés" */
+ .centrat {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.4em;
+ }
+ 
+ @media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .col1, .col2, .col3 {
+    width: 100%;
+  }
+}
